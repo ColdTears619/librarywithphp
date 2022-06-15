@@ -1,7 +1,7 @@
 <?php
 
   include 'connect.php';
-  echo '<h3>Search and Show Books</h3>';
+  echo 'Search and Show Books';
   
  $result = $dbhandle->query("SELECT title,number_title,publish_date,author_name FROM books.book");
 
