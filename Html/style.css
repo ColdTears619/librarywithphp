@@ -1,0 +1,40 @@
+body {
+    background-color: #4E4E4E;
+    text-align: center;         /* make sure IE centers the page too */
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;             /* center the page */
+}
+
+h1, #footer {
+    font-family: Arial;
+    color: #F1F3F1;
+}
+
+#menu {
+    float: left;
+    border: 1px solid #000;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:100%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 85%;
+}
+
+#menu a:hover {
+    background-color: #009FC1;
+}
+
+.item {
+    background-color: #00728B;
+    border: 1px solid #032472;
+    color: #FFF;
+    font-family: Arial;
+    padding: 3px;
+    text-decoration: none;
+}
