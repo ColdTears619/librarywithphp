@@ -11,10 +11,10 @@
     <h1>Welcome to Simple Library</h1>
     <div id="wrapper">
     <div id="menu">
-        <a class="item" href="SB.html">Search And Display Books</a> -
-        <a class="item" href="SaveBooks.php">Insert new book</a> -
-        <a class="item" href="EditBook.php">Edit Books Information</a>
-        <a class="item" href="DeleteBook.php">Edit Books Information</a>
+        <a class="item" href="SB.php">Search And Display Books</a> -
+        <a class="item" href="SaveBook.php">Insert new book</a> -
+        <a class="item" href="EditBook.php">Edit Books Information</a> -
+        <a class="item" href="DeleteBook.php">Delete Book</a>
     </div>
     </div>
 </body>
